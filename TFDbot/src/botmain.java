@@ -5,7 +5,7 @@ import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.JDA;
 
 
-
+//Class to initialize the discord bot and commands for the bot.
 public class botmain {
 
         public static void main(String[] args) {

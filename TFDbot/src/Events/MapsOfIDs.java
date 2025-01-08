@@ -2,6 +2,7 @@ package Events;
 
 import java.util.Map;
 import java.util.HashMap;
+//This class hosts the title IDs and corresponding titles for different titles that characters within the game can have.
 
 public class MapsOfIDs {
     public static void returnTitlePrefix(){

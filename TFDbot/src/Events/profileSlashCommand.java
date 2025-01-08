@@ -15,6 +15,9 @@ import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import net.dv8tion.jda.api.EmbedBuilder;
+//Class for communicating with Nexon's API and returning the requested data from the user.
+
+
 
 public class profileSlashCommand extends ListenerAdapter {
     static String ouid;

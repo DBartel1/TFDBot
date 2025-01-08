@@ -1,7 +1,7 @@
 package Events;
 import java.util.Map;
 import java.util.HashMap;
-
+//This class hosts the IDs for different modules that characters within the game can have. Nexon's API only returns the ID of a module when prompted so I matched the IDs to the corresponding name for the output.
 public class MapOfModuleIDs {
 
     public static String returnModule() {
@@ -566,12 +566,7 @@ public class MapOfModuleIDs {
         moduleMap.put("254013005", "Hydro Pressure Bomb");
         moduleMap.put("254012002", "Nimble Footsteps");
         moduleMap.put("254012001", "Noise Surge");
-      //  moduleMap.put("", "");
 
-
-
-        // System.out.println(profileSlashCommand.module_name);
-      //  System.out.println(profileSlashCommand.module_id);
         moduleName = moduleMap.get(profileSlashCommand.moduleId);
         return moduleName;
     }
